@@ -1,0 +1,194 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>Photo Ninja</title>
+  <link href="styles.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+    <nav class="nav-wrapper transparent">
+      <div class="container">
+        <a href="#" class="brand-logo">After Effects</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">Photo's</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+          <li><a href="#">Photo's</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- photo / grid -->
+  <section class="container section " id="photo's">
+    <div class="row">
+      <div class="col s12 l4 ">
+        <img src="img/portrait.jpg" class="materialboxed responsive-img">
+        </div>
+      <div class="col s12 l4 offset-l2 center-align"> <h2>Portraits</h2>
+        <p>A portrait is a painting, photograph, sculpture, or other artistic representation of a person, in which the face and its expression is predominant. ..</p>
+      </div>  
+    </div>
+  </section>
+  <section class="container section " id="photo's">
+      <div class="row">
+        <div class="col s12 l4 push-l7">
+          <img src="img/city.jpg" class="materialboxed responsive-img">
+          </div>
+        <div class="col s12 l4 offset-l2 right-align pull-l4"> <h2>Cities</h2>
+          <p>A portrait is a painting, photograph, sculpture, or other artistic representation of a person, in which the face and its expression is predominant. ..</p>
+        </div>  
+      </div>
+    </section>
+    <section class="container section " id="photo's">
+        <div class="row">
+          <div class="col s12 l4 ">
+            <img src="img/nature.jpg" class="materialboxed responsive-img">
+            </div>
+          <div class="col s12 l4 offset-l2 center-align"> <h2>Nature</h2>
+            <p>A portrait is a painting, photograph, sculpture, or other artistic representation of a person, in which the face and its expression is predominant. ..</p>
+          </div>  
+        </div>
+      </section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/street.jpg" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- services / tabs -->
+ <section class="section container">
+   <div class="row">
+   <div class="col s12 l4">
+      <h2>My Services</h2>
+      <p>A portrait is a painting, photograph, sculpture, or other artistic representation of a person, in which the face and its expression is predominant. ..</p>
+   </div>
+   <div class="col s12 l4 offset-l2">
+  <ul class="tabs">
+    <li class="col s6 tab">
+      <a class="indigo-text " href="#photography">PHOTOGRAPHY</a>
+    </li>
+    <li class="col s6 tab">
+        <a class="indigo-text " href="#editing">EDITING</a>
+      </li>
+  </ul>
+  <div class="col s12" id="photography">
+  <p class="violet-text darken-2 center-align">PHOTOGRAPHY</p>
+  <p>A portrait is a painting, photograph, sculpture, or other artistic representation of a person, in which the face and its expression is predominant. ..</p>
+</div>
+  <div class="col s12" id= "editing">
+    <p class="violet-text darken-2 center-align">Editing</p>
+    <p>A portrait is a painting, photograph, sculpture, or other artistic representation of a person, in which the face and its expression is predominant. ..</p>
+  </div>
+      </div>
+   </div>
+ </section>
+  <!-- parallax -->
+  <div class="parallax-container">
+      <div class="parallax">
+        <img src="img/stars.jpg" class="responsive-img">
+      </div>
+    </div>
+  <!-- contact form -->
+  <section class="container section">
+    <div class="row">
+      <div class="col s12 l5">
+        <h2 class="red-text darken-3 ">Get in Touch</h2>
+        <p>BHIM Helpline: Now you can also reach out to the BHIM Toll Free number 18001201740 or on the helpline number 022-45414740 for any queries or complaints on your BHIM transactions.</p>
+      </div>
+      <div class="col s12 l5 offset-l2 ">
+        <form action="">
+          <div class="input-fiels">
+              <i class="material-icons prefix">email</i>
+            <input type="email" id="email">
+           
+            <label for="email">Your email address</label>
+          </div>
+          <div class="input-fiels">
+              <i class="material-icons prefix">message</i>
+              <textarea class="materialize-textarea" id="message"> </textarea>
+               <label for="message">Your Message</label>
+          </div>
+          <div class="input-fiels">
+              <i class="material-icons prefix">date-range</i>
+              <input type="text" id="date" class="datepicker">
+               <label for="message">Booking Date</label>
+          </div>
+          <div class="input-fields">
+            <p >Services Required</p>
+            <p>
+            <label>
+            <input type="checkbox">
+            <span>Photography</span>
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox">
+            <span>Editing</span>
+          </label>
+          </div>
+        </p>
+        <button type="submit" class="Green btn center">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <div class="contain black ">
+    <div class="row">
+      <div class="col s12 l4">
+        <h3 class ="white-text">Address</h2>
+          <p class="white-text">10,Jamanagar,Yamuna Ghat ,</p>
+          <p class="white-text">Bhopal ,India</p>
+        
+      </div>
+      <div class="col s12 l4 offset-l3">
+          <h3 class ="white-text">Contact Us</h2>
+            <ul class="white-text">
+               <li><a href="#">Facebook</a></li>
+               <li><a href="#">Gmail</a></li>
+               <li><a href="#">Twitter</a></li>
+               <li><a href="#">Telegram</a></li>
+              
+            </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
+      $('.tabs').tabs() ;
+      $('.datepicker').datepicker({
+      disableWeekends:true 
+      });
+    });
+  </script>
+</body>
+</html>
